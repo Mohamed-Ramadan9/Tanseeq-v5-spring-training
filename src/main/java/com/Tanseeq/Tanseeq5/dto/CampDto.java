@@ -1,0 +1,72 @@
+package com.Tanseeq.Tanseeq5.dto;
+
+import java.time.Instant;
+import java.util.List;
+
+public class CampDto {
+    public Long id;
+    public String campNumber;
+    public String campPhoto;
+    public Integer housingArea;
+    public Double campArea;
+    public Boolean isRented;
+    public Boolean isAreaIdentical;
+    public Integer campReportStatusCode;
+    public String campReportStatus;
+    public Integer campPhaseStatusCode;
+    public String campPhaseStatus;
+    public Double completionPercentage;
+    public Boolean isIdentical;
+    public Double housingPercentage;
+    public Integer allocationStatusCode;
+    public String allocationStatus;
+    public Integer completionStatusCode;
+    public String completionStatus;
+    public Integer kitchenNumber;
+    public Integer airConditionersNumber;
+    public Integer completedAirConditionersNumber;
+    public String generatorStatus;
+    public Integer generatorStatusCode;
+    public String transportation;
+    public String nationality;
+    public Integer numberOfCollectionToilets;
+    public Integer companiesCount;
+    public Integer numberOfToilets;
+    public Integer numberOfHajjToilet;
+    public Integer numberOfHajj;
+    public String serviceCenterNumber;
+    public String serviceCenterHeadName;
+    public String serviceCenterHeadPhone;
+    public String addressInfo;
+    public Double lat;
+    public Double lng;
+    public Instant requestAdditionsDate;
+    public Instant addonLicenseReceiptDate;
+    public Instant startDate;
+    public Instant finalDate;
+    public String additionsOrderNumber;
+    public String globalId;
+    public Boolean addonLicense;
+    public Boolean isCampAllocated;
+    public String withdrawAllocationImg;
+
+    public Integer consultantId;
+    public Integer contractorUserId;
+    public Integer zoneId;
+    public Integer subZoneId;
+    public Integer phaseId;
+    public Integer categoryId;
+    public Integer squareId;
+    public Integer companyId;
+    public Integer developerCompanyId;
+    public Integer minorCompanyId;
+    public Integer rejectedRentalApplicationId;
+    public Integer orderId;
+    public Integer objectId;
+    public Double electricalCampScore;
+
+    public List<Long> tentIds;
+    public List<Long> campServiceIds;
+    public List<Long> campWorkDetailIds;
+    public List<Long> waterHypothesisIds;
+}
